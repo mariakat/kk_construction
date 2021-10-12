@@ -27,3 +27,9 @@
  * CSS file is in "assets/css"
  */
 
+ body:not(.home) #site-navigation-wrap .dropdown-menu>li>a {
+  color: #333 !important;
+}
+body:not(.home) #site-navigation-wrap .dropdown-menu>li>a:hover {
+  color: grey !important;
+}

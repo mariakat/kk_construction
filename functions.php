@@ -436,6 +436,7 @@ final class OCEANWP_Theme_Class {
 
 		// Main Style.css File.
 		wp_enqueue_style( 'oceanwp-style', $dir . 'style.min.css', false, $theme_version );
+		wp_enqueue_style( 'oceanwp-style-css', get_template_directory_uri(). '/style2.css', false, $theme_version );
 
 		// Register hamburgers buttons to easily use them.
 		wp_register_style( 'oceanwp-hamburgers', $dir . 'third/hamburgers/hamburgers.min.css', false, $theme_version );
@@ -1089,3 +1090,4 @@ if ( ! function_exists( 'owp_fs' ) ) {
 // endregion
 
 new OCEANWP_Theme_Class();
+
