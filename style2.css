@@ -33,3 +33,10 @@
 body:not(.home) #site-navigation-wrap .dropdown-menu>li>a:hover {
   color: grey !important;
 }
+
+#site-header-inner {
+    padding:0 20%!important;
+}
+#site-header.transparent-header {
+    background-color: rgba(255,255,255,0.6)!important;
+}
